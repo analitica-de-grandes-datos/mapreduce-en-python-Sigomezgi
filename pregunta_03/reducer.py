@@ -4,8 +4,6 @@
 import sys
 
 if __name__ == '__main__':
-
-
         for line in sys.stdin:
                 val, key = line.strip().split(",")
                 sys.stdout.write("{},{}\n".format(key, val))
