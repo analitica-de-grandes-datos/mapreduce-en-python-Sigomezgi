@@ -8,4 +8,5 @@ if __name__ == "__main__":
         for line in sys.stdin:
                 words=  line.split(',')
                 if( len(words) >2):
-                        sys.stdout.write("{}\t1\n".format(words[2]))
+                        sys.stdout.write("{}\t1\n".format(words[2])) 
+                        
